@@ -1,9 +1,13 @@
-
-import './App.css';
+import React from 'react';
+import Soldier1 from './component/Soldier1';
+import Soldier2 from './component/Soldier2';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+      <Soldier1 />
+      <Soldier2 />
+    </div>
   );
 }
 
